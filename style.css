@@ -51,7 +51,6 @@ h2 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 51px;
 	font-weight: 700;
-	color: #000;
 	margin: 0 auto;
 }
 h4 {
@@ -277,6 +276,9 @@ span .name {
     border:2px solid #C8A969;
     transform:rotate(315deg);
 }
+.circleBase:hover {
+	opacity: 0.4;
+}
 .why {
 	width: 100%;
 }
@@ -303,7 +305,7 @@ span .name {
 	text-align: center;
 }
 .h2name {
-	margin: 50px 0;
+	margin: 20px 0 80px;
 	color: #000;
 }
 .h4name {
