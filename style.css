@@ -271,13 +271,12 @@ span .name {
 	display: flex;
 	justify-content: space-between;
 	border: 1px solid #EAD3A9;
-
 }
 .block {
 	display: flex;
 	justify-content: center;
 	width: 25%;
-	margin: 50px 0;
+	padding: 50px 0;
 }
 .block-one,
 .block-two,
@@ -300,8 +299,21 @@ span .name {
 }
 .block:hover {
 	position: relative;
-	opacity: 1;
-	transform: scale(1.3);
-	color: #000;
+	transform: scale(0, 2);
+	transform: translate(0, 50px);
+    -webkit-transform: translate(0, 50px); /** Chrome & Safari **/
+    -o-transform: translate(0, 50px); /** Opera **/
+    -moz-transform: translate(0, 50px); /** Firefox **/
+	transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out; /** Chrome & Safari **/
+    -moz-transition: all 1s ease-in-out; /** Firefox **/
+    -o-transition: all 1s ease-in-out; /** Opera **/
 	font-weight: 700;
+	-webkit-box-shadow: 2px 1px 29px -5px rgba(0,0,0,1);
+	-moz-box-shadow: 2px 1px 29px -5px rgba(0,0,0,1);
+	box-shadow: 2px 1px 29px -5px rgba(0,0,0,1);
+	border-color: transparent;
+}
+.block:hover .h4name{
+	color: #000;
 }
