@@ -284,6 +284,7 @@ span .name {
 }
 .why {
 	width: 100%;
+	margin: 150px 0;
 }
 .why .wrapper {
 	display: flex;
@@ -308,7 +309,7 @@ span .name {
 	text-align: center;
 }
 .h2name {
-	margin: 20px 0 80px;
+	margin: 20px 0 100px;
 	color: #000;
 }
 .h4name {
