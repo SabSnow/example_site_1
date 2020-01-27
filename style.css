@@ -264,3 +264,17 @@ span .name {
     border:2px solid #C8A969;
     transform:rotate(315deg);
 }
+h2 .h2name {
+	font-family: 'Roboto', sans-serif;
+	font-size: 51px;
+	font-weight: 700;
+	margin: 0 auto;
+	color: #000;
+}
+h4 .h4name {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	margin: 0 auto;
+	color: #8F7445;
+}
