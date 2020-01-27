@@ -47,6 +47,20 @@ h1 {
 	margin: 0 auto;
 	line-height: 1.1;
 }
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 51px;
+	font-weight: 700;
+	color: #000;
+	margin: 0 auto;
+}
+h4 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	color: #fff;
+	margin: 0 auto;
+}
 button {
 	cursor: pointer;
 	font-weight: 400;
