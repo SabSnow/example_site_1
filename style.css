@@ -335,3 +335,23 @@ span .name {
 .block:hover .h4name{
 	color: #000;
 }
+.why2 {
+	background: url('images/sec2.jpg') no-repeat;
+	-moz-background-size: 100%; /* Firefox 3.6+ */
+	-webkit-background-size: 100%;  /*Safari 3.1+ и Chrome 4.0+ */
+	-o-background-size: 100%; /* Opera 9.6+ */
+	background-size: 100%;  /* Современные браузеры */
+	width: 100vw;
+	height: 100vh;
+	margin-left: -172px;
+}
+.why2 .wrapper {
+	margin: 172px;
+	box-sizing: border-box;
+}
+.why2 .h2name {
+	width: 300px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+}
