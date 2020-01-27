@@ -339,16 +339,35 @@ span .name {
 	-o-background-size: 100%; /* Opera 9.6+ */
 	background-size: 100%;  /* Современные браузеры */
 	width: 100vw;
-	height: 100vh;
+	height: 100% auto;
 	margin-left: -172px;
+	box-sizing: border-box;
+	overflow: hidden;
 }
 .why2 .wrapper {
-	margin: 172px;
 	box-sizing: border-box;
+	display: flex;
+	width: 100%;
+	align-items: center;
 }
-.why2 .h2name {
+.h2why2 {
+	display: flex;
 	width: 300px;
 	color: #fff;
-	display: flex;
-	align-items: center;
+	margin: 0 0 0 172px;
+}
+.text-block {
+	width: 280px;
+	color: #fff;
+	margin: 420px 0 0 172px;
+}
+.start {
+	display: block;
+	background-color: transparent;
+	border-color: transparent;
+	color: #C7A969;
+	margin-top: 30px;
+}
+.why2 .nav-arrow {
+	margin: 120px 0;
 }
