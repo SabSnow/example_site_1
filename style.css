@@ -155,8 +155,10 @@ main .background {
 	-o-background-size: 100%; /* Opera 9.6+ */
 	background-size: 100%;  /* Современные браузеры */
 	width: 100vw;
-	height: 100vh;
+	height: 100%;
 	margin-left: -172px;
+	box-sizing: border-box;
+	overflow: hidden;
 }
 main .left-block {
 	width: 40%;
@@ -247,6 +249,7 @@ span .name {
 }
 .nav-arrow {
 	display: flex;
+	margin: 70px 0;
 }
 .next:before {
     content:"";
@@ -281,6 +284,7 @@ span .name {
 }
 .why {
 	width: 100%;
+	margin: 150px 0;
 }
 .why .wrapper {
 	display: flex;
@@ -305,7 +309,7 @@ span .name {
 	text-align: center;
 }
 .h2name {
-	margin: 20px 0 80px;
+	margin: 20px 0 100px;
 	color: #000;
 }
 .h4name {
