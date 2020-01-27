@@ -282,7 +282,7 @@ span .name {
 .why {
 	width: 100%;
 }
-.wrapper {
+.why .wrapper {
 	display: flex;
 	justify-content: space-between;
 	border: 1px solid #EAD3A9;
