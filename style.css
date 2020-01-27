@@ -344,6 +344,7 @@ span .name {
 }
 .why2 .wrapper {
 	margin: 172px;
+	box-sizing: border-box;
 }
 .why2 .h2name {
 	width: 300px;
