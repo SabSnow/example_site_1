@@ -343,3 +343,9 @@ span .name {
 .why2 .wrapper {
 	margin: 172px;
 }
+.why2 .h2name {
+	width: 300px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+}
